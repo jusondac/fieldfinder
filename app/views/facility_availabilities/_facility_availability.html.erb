@@ -1,0 +1,22 @@
+<div id="<%= dom_id facility_availability %>" class="w-full sm:w-auto my-5 space-y-5">
+  <div>
+    <strong class="block font-medium mb-1">Facility:</strong>
+    <%= facility_availability.facility_id %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Day of week:</strong>
+    <%= facility_availability.day_of_week %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Open time:</strong>
+    <%= facility_availability.open_time %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Close time:</strong>
+    <%= facility_availability.close_time %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Is active:</strong>
+    <%= facility_availability.is_active? ? "Yes" : "No" %>
+  </div>
+</div>

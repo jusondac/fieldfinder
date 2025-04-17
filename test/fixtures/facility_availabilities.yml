@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  facility: one
+  day_of_week: 1
+  open_time: 2025-04-17 11:16:47
+  close_time: 2025-04-17 11:16:47
+  is_active: false
+
+two:
+  facility: two
+  day_of_week: 1
+  open_time: 2025-04-17 11:16:47
+  close_time: 2025-04-17 11:16:47
+  is_active: false

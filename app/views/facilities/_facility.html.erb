@@ -1,0 +1,30 @@
+<div id="<%= dom_id facility %>" class="w-full sm:w-auto my-5 space-y-5">
+  <div>
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= facility.name %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Description:</strong>
+    <%= facility.description %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Facility type:</strong>
+    <%= facility.facility_type %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Capacity:</strong>
+    <%= facility.capacity %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Hourly rate:</strong>
+    <%= facility.hourly_rate %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Is active:</strong>
+    <%= facility.is_active? ? "Yes" : "No" %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Image url:</strong>
+    <%= facility.image_url %>
+  </div>
+</div>

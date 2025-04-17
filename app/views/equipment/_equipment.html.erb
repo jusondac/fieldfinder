@@ -1,0 +1,26 @@
+<div id="<%= dom_id equipment %>" class="w-full sm:w-auto my-5 space-y-5">
+  <div>
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= equipment.name %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Description:</strong>
+    <%= equipment.description %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Price per hour:</strong>
+    <%= equipment.price_per_hour %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Quantity available:</strong>
+    <%= equipment.quantity_available %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Facility type:</strong>
+    <%= equipment.facility_type %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Is active:</strong>
+    <%= equipment.is_active? ? "Yes" : "No" %>
+  </div>
+</div>

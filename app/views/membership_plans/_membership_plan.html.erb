@@ -1,0 +1,30 @@
+<div id="<%= dom_id membership_plan %>" class="w-full sm:w-auto my-5 space-y-5">
+  <div>
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= membership_plan.name %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Description:</strong>
+    <%= membership_plan.description %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Duration months:</strong>
+    <%= membership_plan.duration_months %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Price:</strong>
+    <%= membership_plan.price %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Discount percentage:</strong>
+    <%= membership_plan.discount_percentage %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Max bookings per month:</strong>
+    <%= membership_plan.max_bookings_per_month %>
+  </div>
+  <div>
+    <strong class="block font-medium mb-1">Is active:</strong>
+    <%= membership_plan.is_active? ? "Yes" : "No" %>
+  </div>
+</div>
